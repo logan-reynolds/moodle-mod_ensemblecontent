@@ -12,10 +12,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$module->version   = 2011112900;      // The current module version (Date: YYYYMMDDXX)
-$module->requires  = 2010112400;      // Requires this Moodle version
-$module->cron      = 0;               // Period for cron to check this module (secs)
-$module->component = 'mod_ensemblecontent'; // To check on upgrade, that module sits in correct place
-$module->maturity = MATURITY_BETA;      // [MATURITY_STABLE | MATURITY_RC | MATURITY_BETA | MATURITY_ALPHA]
-$module->release  = '1.0.0';
+$plugin->version   = 2011112901;      // The current module version (Date: YYYYMMDDXX)
+$plugin->requires  = 2010112400;      // Requires this Moodle version
+$plugin->cron      = 0;               // Period for cron to check this module (secs)
+$plugin->component = 'mod_ensemblecontent'; // To check on upgrade, that module sits in correct place
+$plugin->maturity = MATURITY_BETA;      // [MATURITY_STABLE | MATURITY_RC | MATURITY_BETA | MATURITY_ALPHA]
+$plugin->release  = '1.0.0';
 ?>

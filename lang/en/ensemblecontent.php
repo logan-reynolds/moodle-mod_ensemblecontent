@@ -36,4 +36,6 @@ $string['ensembleServerUrl'] = 'Ensemble Server URL';
 $string['ensembleServerUrlHelp'] = 'The URL of your Ensemble server. This is the url where you login to the Ensemble web application.';
 
 $string['mustMatchServerUrl'] = 'The source tag must constain the Ensemble server url';
+
+$string['ensemblecontent:addinstance'] = 'Add an Ensemble Content instance';
 ?>
